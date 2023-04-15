@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+    justify-self: baseline;
+    height: 50px;
+    background: black;
+
+}
+
+nav>p {
+    color: white;
+    align-self: center;
+    font-family: Nunito;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 3px;
+}
+
+.logo-span {
+    color: red;
+}
+
+nav>a {
+    align-self: center;
+    padding: 10px;
+    text-decoration: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+
+}
+
+a:hover {
+    color: blue;
+}
+
+.logo {
+    background: none;
+    width: 90px;
+}
+
+.banner {
+    width: 100%;
+}
+
+main {
+    background-color: #dce2ed;
+}
+
+.container {
+    margin: 100px auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+
+.container>h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+}
+
+
+body {
+    /* background-color: rgb(227, 232, 233); */
+    background-color: #eff8ff;
+}
+
+.final-section {
+    width: 70%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-left: 430px;
+    margin-bottom: 100px;
+}
+
+.small-cont {
+    background-color: rgba(197, 188, 176, 0.247);
+    width: 50%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.center-logo {
+    background-color: black;
+    color: white;
+    width: 90px;
+    padding: 20px;
+    position: absolute;
+    top: 155%;
+    left: 900px;
+    border-radius: 10px;
+}
+
+.sect-title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 240px;
+    background: #2a2a2a;
+    color: #b2b2b2;
+}
+
+footer>div>h1 {
+    margin: 50px auto;
+    padding-left: 300px;
+}
+
+footer>div>p {
+    padding-left: 300px;
+}
+
+footer>div>h3 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.main {
+    margin: 10px auto;
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    padding: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: auto;
+    width: 50%;
+}
+
+form>input {
+    padding: 10px;
+    border: none;
+}
+
+.web-banner {
+    height: 800px;
+}
+
+/* marketing part */
+.main-sect {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.img1 {
+    width: 100%;
+}
+
+.para1>p {
+    text-align: center;
+    text-align: justify;
+    font-family: nunito;
+}
+
+.para1 h1 {
+    text-align: center;
+    margin: 30px;
+    font-family: roboto;
+
+}
+
+
+.para2 {
+    display: flex;
+    margin-top: 150px;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    text-align: justify;
+    font-family: nunito;
+}
+
+.text2>h1 {
+    margin-bottom: 10px;
+    font-family: roboto;
+}
+
+.text2>h4 {
+    margin-bottom: 10px;
+}
+
+.img2 {
+    width: 400px;
+}
+
+.para3 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 150px;
+}
+
+.text3>h1 {
+    margin-bottom: 10px;
+    font-family: roboto;
+}
+
+.text3>h4 {
+    margin-bottom: 10px;
+}
+
+.text3 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    text-align: justify;
+    font-family: nunito;
+}
+
+.img3 {
+    width: 400px;
+}
+
+.para4 {
+    display: flex;
+    margin-top: 150px;
+}
+
+.text4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    text-align: justify;
+    font-family: nunito;
+}
+
+.text4>h1 {
+    margin-bottom: 10px;
+    font-family: roboto;
+}
+
+.text4>h4 {
+    margin-bottom: 10px;
+}
+
+.img4 {
+    width: 400px;
+}
+
+.para5 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 150px;
+    padding-bottom: 90px;
+}
+
+.text5>h1 {
+    margin-bottom: 10px;
+    font-family: roboto;
+}
+
+.text5>h4 {
+    margin-bottom: 10px;
+}
+
+.text5 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    text-align: justify;
+    font-family: nunito;
+}
+
+.img5 {
+    width: 400px;
+}
+
+/* anwar part */
+.background {
+    width: 100%;
+}
+
+section {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+}
+
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.cont2 {
+    width: 100%;
+    height: 700px;
+    background-color: #F6F6F6;
+}
+
+.cont3 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    margin-left: 300px;
+    gap: 40px;
+    width: 70%;
+}
+
+.cont1 {
+    width: 80%;
+    padding: 20px;
+}
+
+.cont1>h1 {
+    padding-bottom: 30px;
+}
+
+.cont1>h3 {
+    padding-top: 30px;
+}
